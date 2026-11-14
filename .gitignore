@@ -1,0 +1,22 @@
+# Unity: commit only Assets/, Packages/, ProjectSettings/
+MedicalVR/[Ll]ibrary/
+MedicalVR/[Tt]emp/
+MedicalVR/[Ll]ogs/
+MedicalVR/[Oo]bj/
+MedicalVR/[Bb]uild/
+MedicalVR/[Bb]uilds/
+MedicalVR/[Uu]ser[Ss]ettings/
+MedicalVR/*.csproj
+MedicalVR/*.sln
+*.DS_Store
+MedicalVR/Assets/XR/UserSimulationSettings/
+# Hannah comes from avatar/generated_avatar, imported by AvatarImport (menu MedicalVR > Import avatar)
+MedicalVR/Assets/Avatar/Generated/
+MedicalVR/Assets/Avatar/Generated.meta
+MedicalVR/Assets/Resources/server.txt*
+# Room art from Poly Haven (CC0), fetched by tools/fetch_room_assets.py, imported by Editor/RoomImport.cs
+MedicalVR/Assets/Room/PolyHaven/
+MedicalVR/Assets/Room/PolyHaven.meta
+# patient_male_older: Microsoft Rocketbox (MIT), fetched by tools/fetch_rocketbox.py
+MedicalVR/Assets/Avatar/Rocketbox/
+MedicalVR/Assets/Avatar/Rocketbox.meta
